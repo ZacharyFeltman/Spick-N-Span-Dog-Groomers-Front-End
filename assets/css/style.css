@@ -25,13 +25,14 @@ nav ul {
     justify-content: space-between;
 }
 
-nav li {
+nav li a {
     font-size: 30px;
     color: black;
     text-decoration: none;
 }
 
-.main-content {
+main {
+    display: flex;
     width: 75%;
 }
 
@@ -44,6 +45,12 @@ nav li {
     position: relative;
     text-align: center;
     color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
 }
 
 .bring-to-you {
@@ -87,13 +94,13 @@ nav li {
 aside {
     background-color: white;
     width: 25%;
-    height: 100%;ß
+    height: 100%;
 }
 
 #green-box {
     border: 3px;
-    width: 100px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     padding: 5px;
     background-color: green;
@@ -101,13 +108,13 @@ aside {
 }
 
 #cartoon-dog {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 200px;
 }
 
 #spick-n-span-logo {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 200px;
 }
 
 footer {
