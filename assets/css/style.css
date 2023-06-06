@@ -55,6 +55,26 @@ nav li {
     display: flex;
 }
 
+#calendar-pic {
+    height: 100px;
+    width: 100px;
+}
+
+#car-pic {
+    height: 100px;
+    width: 100px;
+}
+
+#sponge-pic {
+    height: 100px;
+    width: 100px;
+}
+
+#animated-dog-pic {
+    height: 100px;
+    width: 100px;
+}
+
 footer {
         display: flex;
         background-color: rgb(65, 236, 170) ;
