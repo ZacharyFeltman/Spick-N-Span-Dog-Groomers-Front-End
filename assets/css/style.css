@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: rgb(65, 236, 170);
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgb(65, 236, 170);
+    align-items: end;
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+nav li {
+    font-size: 30px;
+}
+
+#car-dog {
+    width: 100%;
+    height: 400px;
+}
+
+.car-dog {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bring-to-you {
+    position: absolute;
+    left: 16px;
+    bottom: 200px;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    width: 600px;
+}
+
+.steps {
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+footer {
+        display: flex;
+        background-color: rgb(65, 236, 170) ;
+        color: black;
+        font-size: 17px;
+        padding: 10px;
+    }
