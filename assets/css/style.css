@@ -76,9 +76,28 @@ h2 {
     width: 100px;
 }
 
-#car-pic {
-    height: 100px;
-    width: 100px;
+.dot-top {
+    width: 120px;
+    height:60px;
+    z-index: -1;
+    background: transparent;
+    border: none;
+    border-top: dotted 2px black;
+    padding: 40px 40px;
+    border-radius: 40%;
+    margin: 20px -50px 0;
+}
+
+.dot-bottom {
+    width: 120px;
+    height:60px;
+    z-index: -1;
+    background: transparent;
+    border: none;
+    border-bottom: dotted 2px black;
+    padding: 40px 40px;
+    border-radius: 0 0 50% 50%;
+    margin: 0 -65px;
 }
 
 #sponge-pic {
