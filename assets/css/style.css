@@ -135,6 +135,11 @@ h2 {
     width: 100px;
 }
 
+figcaption {
+    width: 25%;
+    display: flex;
+}
+
 aside {
     background-color: white;
     width: 25%;
