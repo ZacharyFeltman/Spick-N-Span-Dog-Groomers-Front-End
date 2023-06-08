@@ -81,23 +81,15 @@ h2 {
 
 .steps {
     display: flex;
-    margin: auto;
     justify-content: space-between;
-    flex-direction: row;
     height: 200px;
     width: 100%;
-    position: relative;
-    left: 15px;
 } 
 
-.steps p {
-    font-size: 25px;
-    flex-basis: 20%;
-}
-
 #calendar-pic {
-    height: 130px;
-    width: 100px;
+    height: 165px;
+    width: 165px;
+    /* margin-left: 90px; */
 }
 
 .dot-top {
@@ -125,18 +117,19 @@ h2 {
 }
 
 #car-pic {
-    height: 130px;
-    width: 100px;
+    height: 165px;
+    width: 165px;
 }
 
 #sponge-pic {
-    height: 130px;
-    width: 100px;
+    height: 165px;
+    width: 165px;
 }
 
 #animated-dog-pic {
-    height: 130px;
-    width: 100px;
+    height: 165px;
+    width: 165px;
+    /* margin-left: -85px; */
 }
 
 figcaption { 
