@@ -28,9 +28,12 @@ nav ul {
 }
 
 nav li a {
+    font-family:'sans-serif';
+    font-weight: bold;
     font-size: 30px;
     color: black;
     text-decoration: none;
+    margin: 0px 50px;
 }
 
 main {
@@ -67,17 +70,18 @@ h2 {
 
 .bring-to-you {
     position: absolute;
-    left: 290px;
-    bottom: 200px;
+    left: 375px;
+    bottom: 40%;
     color: white;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 60px;
     width: 600px;
     height: 40px;
 }
 
 .steps {
     display: flex;
+    margin: auto;
     justify-content: space-between;
     flex-direction: row;
     height: 200px;
@@ -135,9 +139,34 @@ h2 {
     width: 100px;
 }
 
-figcaption {
+figcaption { 
     width: 25%;
     display: flex;
+    text-align: center;
+} 
+
+#cap-cal {
+    width: 45%;
+    display: flex;
+    text-align: center;
+}
+
+#cap-car {
+    width: 42%;
+    display: flex;
+    text-align: center;
+}
+
+#cap-sponge {
+    width: 45%;
+    display: flex;
+    text-align: center;
+}
+
+#cap-dog {
+    width: 55%;
+    display: flex;
+    text-align: center;
 }
 
 aside {
@@ -146,10 +175,9 @@ aside {
     height: 100%;
 }
 
-#green-box {
-    font-size: 55px; 
+#green-box { 
     border: 3px;
-    width: 100%;
+    width: 85%;
     height: 200px;
     border-radius: 10px;
     padding: 5px;
@@ -158,19 +186,22 @@ aside {
 }
 
 #green-box p {
-    margin-top: 20px;
+    font-size: 53px;
+    margin-top: 12px;
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
 }
 
 #cartoon-dog {
     height: 360px;
-    width: 100%;
+    width: 85%;
     margin-top: -100px;
     position: relative;
 }
 
 #spick-n-span-logo {
     height: 300px;
-    width: 100%;
+    width: 85%;
 }
 
 footer {
